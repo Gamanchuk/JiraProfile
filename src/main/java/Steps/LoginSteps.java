@@ -3,7 +3,6 @@ package Steps;
 import Pages.LoginPageObject;
 import Properties.ConfigProperties;
 import com.codeborne.selenide.Configuration;
-
 import static com.codeborne.selenide.Selenide.open;
 
 public class LoginSteps {
@@ -20,7 +19,6 @@ public class LoginSteps {
         open("http://jira.hillel.it:8080/login.jsp");
         LoginPageObject loginPage = new LoginPageObject();
         loginPage.LoginToJira(login, password);
-
 
     }
 
