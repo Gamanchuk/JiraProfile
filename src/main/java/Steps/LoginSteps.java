@@ -3,7 +3,6 @@ package Steps;
 import Pages.LoginPageObject;
 import Properties.ConfigProperties;
 import com.codeborne.selenide.Configuration;
-
 import static com.codeborne.selenide.Selenide.open;
 
 public class LoginSteps {
